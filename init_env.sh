@@ -42,6 +42,7 @@ brew install --cask firefox
 brew install --cask clashx
 brew install --cask alt-tab
 brew install --cask microsoft-remote-desktop
+brew install --cask iina
 
 # mackup 同步电脑之间的配置 项目路径:https://github.com/lra/mackup
 brew install mackup
