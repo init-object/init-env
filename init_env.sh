@@ -67,3 +67,5 @@ mkdir ~/.ssh_connection
 # iStat Menus 
 # Paste
 # Bartender 4
+# TablePlus
+# CleanMyMac X
