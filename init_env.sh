@@ -36,8 +36,8 @@ brew install --cask font-sauce-code-pro-nerd-font
 brew install --cask visual-studio-code
 brew install --cask google-chrome
 brew install --cask dropbox
-cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz
-cd -
+#cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz
+#cd -
 brew install --cask notion
 brew install --cask firefox
 # brew install --cask clashx (clashx pro代替 https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
@@ -61,3 +61,9 @@ directory = Mackup' > .mackup.cfg
 
 mackup restore
 mkdir ~/.ssh_connection
+
+#安装其他推荐软件
+# Alfred 
+# iStat Menus 
+# Paste
+# Bartender 4
