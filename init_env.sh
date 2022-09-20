@@ -22,6 +22,7 @@ brew install node
 
 # java 环境
 brew install jenv
+mkdir -p ~/.jenv/versions/
 brew install homebrew/cask-versions/adoptopenjdk8
 jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/
 jenv global 1.8
@@ -46,7 +47,7 @@ brew install --cask iina
 
 # mackup 同步电脑之间的配置 项目路径:https://github.com/lra/mackup
 brew install mackup
-echp -e '[storage]
+echo -e '[storage]
 #engine = file_system
 #path = OneDrive
 engine = dropbox
