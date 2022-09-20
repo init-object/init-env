@@ -40,10 +40,11 @@ cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate
 cd -
 brew install --cask notion
 brew install --cask firefox
-brew install --cask clashx
+# brew install --cask clashx (clashx pro代替 https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
 brew install --cask alt-tab
 brew install --cask microsoft-remote-desktop
 brew install --cask iina
+brew install --cask wechatwork
 
 #密码管理工具
 brew install --cask bitwarden
