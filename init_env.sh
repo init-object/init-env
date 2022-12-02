@@ -31,12 +31,13 @@ brew install maven
 # 个人偏爱编程字体
 brew install --cask  homebrew/cask-fonts/font-mplus
 brew install --cask font-sauce-code-pro-nerd-font
+brew install --cask font-fira-code
 
 # 常用app
 brew install --cask visual-studio-code
 brew install --cask google-chrome
 brew install --cask dropbox
-#cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz
+#cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz (magent代替)
 #cd -
 brew install --cask notion
 brew install --cask firefox
@@ -44,7 +45,7 @@ brew install --cask firefox
 brew install --cask alt-tab
 brew install --cask microsoft-remote-desktop
 brew install --cask iina
-brew install --cask wechatwork
+#brew install --cask wechatwork
 
 #密码管理工具
 brew install --cask bitwarden
@@ -69,3 +70,4 @@ mkdir ~/.ssh_connection
 # Bartender 4
 # TablePlus
 # CleanMyMac X
+# magent
