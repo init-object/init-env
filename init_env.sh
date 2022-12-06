@@ -48,6 +48,7 @@ brew install --cask iina
 #brew install --cask wechatwork
 
 #密码管理工具
+brew install bitwarden-cli
 brew install --cask bitwarden
 
 # mackup 同步电脑之间的配置 项目路径:https://github.com/lra/mackup
