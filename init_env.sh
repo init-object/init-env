@@ -36,11 +36,11 @@ brew install --cask font-fira-code
 # 常用app
 brew install --cask visual-studio-code
 brew install --cask google-chrome
-brew install --cask dropbox
+#brew install --cask dropbox
+#brew install --cask firefox
 #cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz (magent代替)
 #cd -
 brew install --cask notion
-brew install --cask firefox
 # brew install --cask clashx (clashx pro代替 https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
 brew install --cask alt-tab
 brew install --cask microsoft-remote-desktop
@@ -58,11 +58,12 @@ brew install mackup
 echo -e '[storage]
 #engine = file_system
 #path = OneDrive
-engine = dropbox
+engine = icloud
 directory = Mackup' > .mackup.cfg
 
-mackup restore
 mkdir ~/.ssh_connection
+mackup restore
+
 
 #安装其他推荐软件
 # Alfred 
