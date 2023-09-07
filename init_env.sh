@@ -1,6 +1,19 @@
 #安装brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# mackup 同步电脑之间的配置 项目路径:https://github.com/lra/mackup
+brew install mackup
+
+#需先登录apple iCloud
+echo -e '[storage]
+#engine = file_system
+#path = OneDrive
+engine = icloud
+directory = Mackup' > .mackup.cfg
+
+mkdir ~/.ssh_connection
+mackup restore
+
 # 终端及zsh配置
 brew install iterm2
 brew install zsh
@@ -16,6 +29,8 @@ brew install wget
 # python 环境
 brew install pyenv
 brew install pyenv-virtualenv
+
+brew install subversion
 
 # node 环境
 brew install node
@@ -36,6 +51,7 @@ brew install --cask font-fira-code
 # 常用app
 brew install --cask visual-studio-code
 brew install --cask google-chrome
+brew install --cask snipaste
 #brew install --cask dropbox
 #brew install --cask firefox
 #cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz (magent代替)
@@ -47,22 +63,12 @@ brew install --cask microsoft-remote-desktop
 brew install --cask iina
 #brew install --cask wechatwork
 
-#密码管理工具
+#密码管理工具 可配合workflow使用 https://github.com/blacs30/bitwarden-alfred-workflow
 brew install bitwarden-cli
-brew install --cask bitwarden
 
-# mackup 同步电脑之间的配置 项目路径:https://github.com/lra/mackup
-brew install mackup
 
-#登陆dropbox 从dropbox恢复配置
-echo -e '[storage]
-#engine = file_system
-#path = OneDrive
-engine = icloud
-directory = Mackup' > .mackup.cfg
-
-mkdir ~/.ssh_connection
-mackup restore
+#局域网
+#brew install --cask zerotier-one
 
 
 #安装其他推荐软件
@@ -73,3 +79,4 @@ mackup restore
 # TablePlus
 # CleanMyMac X
 # magent
+
