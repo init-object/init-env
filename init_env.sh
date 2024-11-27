@@ -20,7 +20,7 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-brew install zsh-syntax-highlighting
+# brew install zsh-syntax-highlighting
 brew install autojump
 brew install zsh-vi-mode
 brew install zsh-navigation-tools
@@ -50,7 +50,8 @@ brew install --cask font-fira-code
 
 # 常用app
 brew install --cask visual-studio-code
-brew install --cask google-chrome
+brew install --cask microsoft-edge
+#brew install --cask google-chrome
 brew install --cask snipaste
 #brew install --cask dropbox
 #brew install --cask firefox
@@ -60,7 +61,7 @@ brew install --cask notion
 # brew install --cask clashx (clashx pro代替 https://install.appcenter.ms/users/clashx/apps/clashx-pro/distribution_groups/public)
 brew install --cask alt-tab
 brew install --cask microsoft-remote-desktop
-brew install --cask iina
+#brew install --cask iina
 #brew install --cask wechatwork
 
 #密码管理工具 可配合workflow使用 https://github.com/blacs30/bitwarden-alfred-workflow
