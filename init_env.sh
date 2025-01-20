@@ -44,7 +44,8 @@ jenv global 1.8
 brew install maven
 
 # 个人偏爱编程字体
-brew install --cask  homebrew/cask-fonts/font-mplus
+#brew install --cask  homebrew/cask-fonts/font-mplus
+brew install --cask  font-m-plus-1-code 
 brew install --cask font-sauce-code-pro-nerd-font
 brew install --cask font-fira-code
 
